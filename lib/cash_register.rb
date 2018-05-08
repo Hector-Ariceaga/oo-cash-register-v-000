@@ -12,7 +12,7 @@ class CashRegister
     self.total += price*quantity
 
     i = 1
-    while i <= quantity do
+    while i < quantity do
      @@items << title
       i +=1
     end
