@@ -13,9 +13,9 @@ class CashRegister
     self.items.clear
     i = 0
     do
-    while i <= quantity do
       @@items << title
       i +=1
+    while i < quantity
     end
   end
    
