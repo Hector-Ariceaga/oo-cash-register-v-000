@@ -15,7 +15,7 @@ class CashRegister
     do
       @@items << title
       i +=1
-    while i < quantity
+    while (i < quantity)
     end
   end
    
