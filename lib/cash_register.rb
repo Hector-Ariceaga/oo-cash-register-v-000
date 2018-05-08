@@ -16,6 +16,7 @@ class CashRegister
       i += 1
       if i == quantity 
         break
+      end
     end
   end
    
