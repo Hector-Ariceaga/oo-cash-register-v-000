@@ -6,7 +6,7 @@ class CashRegister
   end
   
  def discount
-   self.discount
+   self.discount = 0
  end
     
 end
