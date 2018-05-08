@@ -15,7 +15,7 @@ class CashRegister
       self.items << title
       i += 1
       if i = quantity break;
-
+    end
   end
    
   
