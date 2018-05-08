@@ -14,9 +14,7 @@ class CashRegister
     loop until i == quantity
       @@items << title
       i += 1
-    end
-  end
-  end
+   
   
   def apply_discount
     self.total *= (1 - (self.discount/100.0)) 
