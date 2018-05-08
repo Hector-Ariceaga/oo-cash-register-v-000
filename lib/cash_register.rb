@@ -16,6 +16,7 @@ class CashRegister
       i += 1
     while i < quantity
   end
+  end
    
   
   def apply_discount
