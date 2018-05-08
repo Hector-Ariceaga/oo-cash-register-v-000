@@ -14,7 +14,7 @@ class CashRegister
     loop do
       self.items << title
       i += 1
-      if i = quantity break;
+      if i == quantity break;
     end
   end
    
